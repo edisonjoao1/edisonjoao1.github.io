@@ -34,13 +34,13 @@ h1,h2,h3,h4,h5,h6{
 }
 h1.fit_tittle a{
 	text-decoration:none;
-	color:#fff;
+	color:#4b4646;
 	text-align:center;
 }
 h1.fit_tittle{
 	text-align:center;
 	margin-bottom:1em;	
-	font-size:3.5em;
+	font-size:2em;
     text-transform: capitalize;
 	font-family: 'Josefin Sans', sans-serif;
 }
