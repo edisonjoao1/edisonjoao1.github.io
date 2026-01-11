@@ -1,0 +1,59 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#71ffae"/>
+      <stop offset="50%" style="stop-color:#00ffff"/>
+      <stop offset="100%" style="stop-color:#3c6cde"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1000" cy="150" r="250" fill="#ff145f" opacity="0.15"/>
+  <circle cx="150" cy="500" r="200" fill="#00ffff" opacity="0.1"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent)"/>
+
+  <!-- Fox emoji placeholder -->
+  <text x="100" y="180" font-size="100">&#129418;</text>
+
+  <!-- Brand name -->
+  <text x="220" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="700" fill="#ffffff">
+    Foxie
+  </text>
+
+  <!-- Tagline -->
+  <text x="100" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="600" fill="#ffffff">
+    Connect Through
+  </text>
+  <text x="100" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="600" fill="url(#accent)">
+    Activities
+  </text>
+
+  <!-- Description -->
+  <text x="100" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#888888">
+    A social network for discovering events, meeting people,
+  </text>
+  <text x="100" y="525" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#888888">
+    and connecting with the world around you.
+  </text>
+
+  <!-- App Store badge area -->
+  <rect x="100" y="560" width="160" height="50" rx="8" fill="#ffffff" opacity="0.1"/>
+  <text x="180" y="592" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="#ffffff" text-anchor="middle">
+    Download on iOS
+  </text>
+
+  <!-- Website -->
+  <text x="1100" y="590" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="500" fill="#666666" text-anchor="end">
+    foxie.cool
+  </text>
+</svg>

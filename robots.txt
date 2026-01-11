@@ -1,0 +1,9 @@
+# Robots.txt for foxie.cool
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://foxie.cool/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1

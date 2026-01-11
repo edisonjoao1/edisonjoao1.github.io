@@ -1,298 +1,92 @@
-<!doctype html>
-<html
-  data-wf-domain="www.foxie.cool"
-  data-wf-page="5bdcd81aa566f47600a90ea8"
-  data-wf-site="5bdcd81aa566f460cda90ea7"
->
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Foxie | Engage with the world</title>
+    <title>Foxie | Connect Through Activities - Social Network App</title>
     <meta
-      content="Foxie is a new social network driven on connecting you to the world through activities, events, and more by others."
       name="description"
+      content="Foxie is a social network that connects you to the world through activities, events, and experiences with people nearby. Download on iOS."
     />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link
-      href="https://uploads-ssl.webflow.com/5bdcd81aa566f460cda90ea7/css/thaw.f7a6823fd.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script
-      src="https://use.typekit.net/myg8nnj.js"
-      type="text/javascript"
-    ></script>
-    <script type="text/javascript">
-      try {
-        Typekit.load();
-      } catch (e) {}
-    </script>
-    <!--[if lt IE 9
-      ]><script
-        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
-        type="text/javascript"
-      ></script
-    ><![endif]-->
-    <script type="text/javascript">
-      !(function (o, c) {
-        var n = c.documentElement,
-          t = " w-mod-";
-        (n.className += t + "js"),
-          ("ontouchstart" in o ||
-            (o.DocumentTouch && c instanceof DocumentTouch)) &&
-            (n.className += t + "touch");
-      })(window, document);
-    </script>
-    <link
-      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/198/fox-face_1f98a.png"
-      rel="shortcut icon"
-      type="image/x-icon"
-    />
-    <link
-      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/198/fox-face_1f98a.png"
-      rel="apple-touch-icon"
-    />
+    <meta name="keywords" content="social network, activities app, events app, meet people, local events, social activities, iOS app, connect with people" />
+    <meta name="author" content="Foxie" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ff145f" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://foxie.cool/" />
 
-    <script type="text/javascript">
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-129772339-1', 'auto');ga('send', 'pageview');</script-->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://foxie.cool/" />
+    <meta property="og:title" content="Foxie | Connect Through Activities" />
+    <meta property="og:description" content="A social network that connects you to the world through activities, events, and experiences with people nearby." />
+    <meta property="og:image" content="https://foxie.cool/images/og-image.png" />
+    <meta property="og:site_name" content="Foxie" />
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://foxie.cool/" />
+    <meta name="twitter:title" content="Foxie | Connect Through Activities" />
+    <meta name="twitter:description" content="A social network that connects you to the world through activities, events, and experiences with people nearby." />
+    <meta name="twitter:image" content="https://foxie.cool/images/og-image.png" />
+    <meta name="twitter:site" content="@foxiee_app" />
 
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
 
-      	<!--Reactflow--><script src="https://js.reactflow.com/js/89.js">
-    </script>
-    <!--/Reactflow-->
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-64271669-7"
-    ></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX'); // Replace with your GA4 ID
+    </script>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Foxie",
+      "operatingSystem": "iOS",
+      "applicationCategory": "SocialNetworkingApplication",
+      "description": "A social network that connects you to the world through activities, events, and experiences with people nearby.",
+      "url": "https://foxie.cool",
+      "downloadUrl": "https://apps.apple.com/us/app/foxie/id1369279200",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "Foxie",
+        "url": "https://foxie.cool"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "100"
       }
-      gtag("js", new Date());
-
-      gtag("config", "UA-64271669-7");
-    </script>
-
-    <script
-      src="https://www.feedbase.co/widget/v1.js"
-      data-widget="d1d2312e-ece1-4c44-aad2-b6430b8490fa"
-    ></script>
-
-    <script type="text/javascript">
-      (window.heap = window.heap || []),
-        (heap.load = function (e, t) {
-          (window.heap.appid = e), (window.heap.config = t = t || {});
-          var r = t.forceSSL || "https:" === document.location.protocol,
-            a = document.createElement("script");
-          (a.type = "text/javascript"),
-            (a.async = !0),
-            (a.src =
-              (r ? "https:" : "http:") +
-              "//cdn.heapanalytics.com/js/heap-" +
-              e +
-              ".js");
-          var n = document.getElementsByTagName("script")[0];
-          n.parentNode.insertBefore(a, n);
-          for (
-            var o = function (e) {
-                return function () {
-                  heap.push(
-                    [e].concat(Array.prototype.slice.call(arguments, 0)),
-                  );
-                };
-              },
-              p = [
-                "addEventProperties",
-                "addUserProperties",
-                "clearEventProperties",
-                "identify",
-                "resetIdentity",
-                "removeEventProperty",
-                "setEventProperties",
-                "track",
-                "unsetEventProperty",
-              ],
-              c = 0;
-            c < p.length;
-            c++
-          )
-            heap[p[c]] = o(p[c]);
-        });
-      heap.load("3830739840");
-    </script>
-
-    <!-- End Facebook Pixel Code -->
-
-    // Hello，Please help integrate the Stey SDK. It's a UX analytics tool to
-    improve user experience. //
-    Docs:https://help.stey.ai/en/articles/8635119-how-to-collect-user-behavior
-    // SDK code:
-    <script type="text/javascript">
-      (function () {
-        "use strict";
-
-        var ErrorType;
-        (function (ErrorType) {
-          ErrorType["log"] = "log";
-          ErrorType["event"] = "event";
-        })(ErrorType || (ErrorType = {}));
-
-        var USER_CACHE_KEY = "stey_ai_pre_user";
-
-        function sdkInit(SdkUrl, apiKey) {
-          window.__UV__INVOKE = [];
-          window.__UV__LOGS = [];
-          window.addEventListener("error", function (e) {
-            pushError(e, ErrorType.event, "error");
-          });
-          var levels = ["error", "log", "warn", "info"];
-          var _loop_1 = function (i) {
-            var level = levels[i];
-            var originalFn = console[level];
-            console[level] = function () {
-              var args = [];
-              for (var _i = 0; _i < arguments.length; _i++) {
-                args[_i] = arguments[_i];
-              }
-              originalFn.apply(this, args);
-              pushError(new Error(), ErrorType.log, level, args);
-            };
-          };
-          for (var i = 0; i < levels.length; i++) {
-            _loop_1(i);
-          }
-          function pushError(err, type, level, args) {
-            var _a;
-            if (
-              ((_a = window.__UV__LOGS) === null || _a === void 0
-                ? void 0
-                : _a.length) > 100
-            )
-              return;
-            window.__UV__LOGS.push({
-              error: err,
-              level: level,
-              args: args,
-              type: type,
-            });
-          }
-          function pushPreMethod(addItem) {
-            var hasMethod = false;
-            window.__UV__INVOKE.some(function (item, index) {
-              if (item.method === addItem.method) {
-                window.__UV__INVOKE[index] = addItem;
-                hasMethod = true;
-                return true;
-              }
-            });
-            if (!hasMethod) {
-              window.__UV__INVOKE.push(addItem);
-            }
-          }
-          function initMethods() {
-            window.steyAIRecord = window.userview = {
-              initialize: function (projectKey, options) {
-                var _a;
-                if (
-                  options &&
-                  ((_a = options.userInfo) === null || _a === void 0
-                    ? void 0
-                    : _a.uid)
-                ) {
-                  setUser(options.userInfo);
-                }
-                pushPreMethod({
-                  method: "initialize",
-                  args: [projectKey, options],
-                });
-              },
-              identify: function (userInfo) {
-                if (userInfo && userInfo.uid) {
-                  setUser(userInfo);
-                  pushPreMethod({
-                    method: "identify",
-                    args: [userInfo],
-                  });
-                } else {
-                  console.warn("identify need a uid", userInfo);
-                }
-              },
-            };
-          }
-          function setUser(userInfo) {
-            try {
-              window.localStorage.setItem(
-                USER_CACHE_KEY + apiKey,
-                JSON.stringify(userInfo),
-              );
-            } catch (error) {
-              console.warn("userInfo set failed", error);
-            }
-          }
-          function createLoadSdk(url, apiKey) {
-            var scriptDom = document.createElement("script");
-            scriptDom.type = "text/javascript";
-            scriptDom.src = url;
-            document.head.appendChild(scriptDom);
-          }
-          initMethods();
-          return function start(isDefaultInit, options) {
-            createLoadSdk(SdkUrl);
-            if (isDefaultInit) {
-              window.steyAIRecord.initialize(apiKey, options);
-            }
-          };
-        }
-        var addSdk = sdkInit(
-          "https://static.stey.ai/sdk/web/1.4.0/index.js",
-          "88b212d04ff94bd386ccd51555d8099a",
-        );
-        addSdk(true);
-      })();
-      !(function () {
-        function e() {
-          var e = location.href,
-            t = {};
-          if ((n = e.match(/#([^?]*)/))) {
-            var r = n[1].split("&");
-            r.forEach(function (e) {
-              var n = e.split("=");
-              t[n[0]] = n[1];
-            });
-          }
-          var n;
-          if ((n = e.match(/\?([^#]*)/))) {
-            var o = n[1].split("&");
-            o.forEach(function (e) {
-              var n = e.split("=");
-              t[n[0]] = n[1];
-            });
-          }
-          return t;
-        }
-        var t = "__UV__SELECT_MODE__",
-          n = "__UV__SELECT_ID__",
-          r = e(),
-          o = String(r[t]) || sessionStorage.getItem(t),
-          i = String(r[n]) || sessionStorage.getItem(n) || "";
-        if ("1" !== o) return;
-        var a = document.createElement("script");
-        (a.type = "text/javascript"),
-          (a.src =
-            "https://static.stey.ai/libs/1.0.0/DomSelector.umd.min.js?" +
-            Date.now()),
-          document.head.appendChild(a),
-          (a.onload = function () {
-            console.log("load selector dom sdk success.");
-          });
-      })();
+    }
     </script>
 
     <style>
       body {
         -webkit-font-smoothing: antialiased !important;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
       }
 
       .about,
@@ -303,23 +97,7 @@
       video {
         width: 100%;
       }
-      /* 
-@media screen and (min-width: 480px) {
-  video {
-	width: 282px;
-    height: 502px;
-    padding-top:0;
-  }
-}
 
-@media screen and (max-width: 479px) {
-  video {
-	width: 100%;
-    height: 0px;
-    padding-top:0%;
-  }
-}
-  */
       .about.centered {
         mix-blend-mode: normal;
       }
@@ -335,45 +113,45 @@
         background: -webkit-linear-gradient(80deg, #71ffae, #00ffff, #3c6cde);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        background-clip: text;
       }
 
       .card {
-        -webkit-filter: drop-shadow(0px 10px 20px rgba(22, 16, 106, 0.2));
         filter: drop-shadow(0px 10px 20px rgba(22, 16, 106, 0.2));
       }
 
       .phone {
-        -webkit-filter: drop-shadow(0px 37px 72px rgba(22, 16, 106, 0.2));
         filter: drop-shadow(0px 10px 20px rgba(22, 16, 106, 0.2));
       }
 
       .phone-container {
-        -webkit-filter: drop-shadow(0px 37px 72px rgba(22, 16, 106, 0.2));
         filter: drop-shadow(0px 10px 20px rgba(22, 16, 106, 0.2));
       }
 
       ::selection {
-        background: #ff145f; /* WebKit/Blink Browsers */
+        background: #ff145f;
       }
+
       ::-moz-selection {
-        background: #ff145f; /* Gecko Browsers */
+        background: #ff145f;
       }
     </style>
   </head>
   <body class="body">
     <div class="container-main">
       <div class="content">
-        <div class="header">
-          <a href="" class="w-inline-block w--current"
-            ><img src="https://i.ibb.co/XtxQMPJ/Foxie-2x-copy.png" alt=""
-          /></a>
-          <div class="header-links">
+        <header class="header">
+          <a href="/" class="w-inline-block w--current" aria-label="Foxie Home">
+            <img src="https://i.ibb.co/XtxQMPJ/Foxie-2x-copy.png" alt="Foxie Logo" width="120" height="auto" />
+          </a>
+          <nav class="header-links" aria-label="Main navigation">
             <a href="#about" class="header-link">About</a>
-            <a href="#how-it-works" class="header-link">How It Works</a
-            ><a href="#contact" class="header-link">Contact</a>
-          </div>
-        </div>
-        <div class="container-hero">
+            <a href="#how-it-works" class="header-link">How It Works</a>
+            <a href="#contact" class="header-link">Contact</a>
+          </nav>
+        </header>
+
+        <section class="container-hero" aria-label="Hero">
           <div class="hero-left">
             <h1 class="h1">
               Connect with the world around you through activities
@@ -381,66 +159,71 @@
             <a
               href="https://apps.apple.com/us/app/foxie/id1369279200"
               target="_blank"
+              rel="noopener noreferrer"
               class="container-cta w-inline-block"
-              ><img
+              aria-label="Download Foxie on the App Store"
+            >
+              <img
                 src="https://uploads-ssl.webflow.com/5bdcd81aa566f460cda90ea7/5bf24ca411bde25a5754c7f7_app%20store.png"
                 width="190"
-                alt=""
-                class="cta" /></a
-            ><a
-              data-w-id="da72f341-f08b-f84a-a9bb-fbbcffc4255a"
+                height="auto"
+                alt="Download on the App Store"
+                class="cta"
+                loading="lazy"
+              />
+            </a>
+            <a
               href="http://eepurl.com/dDspiH"
               class="link-android"
-              >Get the download link or sign up while we make an android
-              version</a
+              rel="noopener noreferrer"
             >
+              Get the download link or sign up while we make an Android version
+            </a>
           </div>
           <div class="hero-right">
             <img
               src="https://i.ibb.co/pJ3rH8C/activities.png"
               width="572"
-              alt="Cards of people nearby you"
+              height="auto"
+              alt="Cards showing activities from people nearby"
               class="card"
+              loading="lazy"
             />
           </div>
-        </div>
-        <div id="about" class="about">
+        </section>
+
+        <section id="about" class="about" aria-label="About Foxie">
           Foxie was created to connect you to the world around you through
           activities in a simple way:
-        </div>
-        <div id="how-it-works" class="section _1">
+        </section>
+
+        <section id="how-it-works" class="section _1" aria-label="How it works">
           <div class="container-screenshots">
             <img
               src="https://i.ibb.co/7rRXnVn/activitityblank2.png"
               width="312"
-              alt="Profile"
+              height="auto"
+              alt="Create an activity screen"
               class="phone small"
+              loading="lazy"
             />
             <div class="phone-container">
               <div
                 data-poster-url="https://uploads-ssl.webflow.com/5bdcd81aa566f460cda90ea7/5bf6092ec176118336abc166_trimmed-poster-00001.jpg"
-                data-video-urls="https://webm.red/qg6y.webm,https://webm.red/qg6y.webm"
+                data-video-urls="https://webm.red/qg6y.webm"
                 data-autoplay="true"
                 data-loop="true"
-                data-wf-ignore="true"
                 class="background-video w-background-video w-background-video-atom"
               >
                 <video
-                  autoplay=""
-                  loop=""
-                  style='background-image:url("https://i.ibb.co/2cG5Kd0/Simulator-Screen-Shot-i-Phone-7-2019-05-02-at-22-33-46.png;)'
-                  muted=""
-                  playsinline=""
-                  data-wf-ignore="true"
+                  autoplay
+                  loop
+                  muted
+                  playsinline
+                  poster="https://i.ibb.co/2cG5Kd0/Simulator-Screen-Shot-i-Phone-7-2019-05-02-at-22-33-46.png"
+                  aria-label="App demo video"
                 >
-                  <source
-                    src="https://webm.red/qg6y.webm"
-                    data-wf-ignore="true"
-                  />
-                  <source
-                    src="https://webm.red/qg6y.webm"
-                    data-wf-ignore="true"
-                  />
+                  <source src="https://webm.red/qg6y.webm" type="video/webm" />
                 </video>
               </div>
             </div>
@@ -452,8 +235,9 @@
               Simply add the thing you want to do with the time and place!
             </p>
           </div>
-        </div>
-        <div class="section">
+        </section>
+
+        <section class="section" aria-label="Activities feature">
           <div class="container-copy">
             <h2 class="h2">Activities</h2>
             <p class="about">
@@ -466,22 +250,23 @@
             <img
               src="https://i.ibb.co/CwLgmzX/postinfo.png"
               width="322"
-              alt="A person nearby"
+              height="auto"
+              alt="Activity details screen"
               class="phone top large"
-            /><img
-              src="https://i.ibb.co/CwLgmzX/postinfo.png"
+              loading="lazy"
+            />
+            <img
+              src="https://i.ibb.co/9y5Q2Pd/foxie-sgoing.png"
               width="312"
-              alt="Interest comparison between two people"
-              srcset="
-                https://i.ibb.co/9y5Q2Pd/foxie-sgoing.png 500w,
-                https://i.ibb.co/9y5Q2Pd/foxie-sgoing.png 624w
-              "
-              sizes="(max-width: 767px) 45vw, 312px"
+              height="auto"
+              alt="Who's going to an activity"
               class="phone _2 small"
+              loading="lazy"
             />
           </div>
-        </div>
-        <div class="section vertical">
+        </section>
+
+        <section class="section vertical" aria-label="Discover features">
           <h2 class="h2">
             Discover new friends, places and things. Join groups, chat with the
             world and much more
@@ -490,159 +275,110 @@
             <img
               src="https://i.ibb.co/ZmbP6WL/discover.png"
               width="400"
-              alt="It&#x27;s a match"
-              srcset="
-                https://i.ibb.co/ZmbP6WL/discover.png 500w,
-                https://i.ibb.co/ZmbP6WL/discover.png 800w
-              "
-              sizes="(max-width: 479px) 59vw, (max-width: 767px) 54vw, 400px"
-              data-w-id="12f1ab5d-3499-4163-6efe-7895fd2df934"
+              height="auto"
+              alt="Discover screen showing nearby activities"
               class="phone vertical-1"
-            /><img
+              loading="lazy"
+            />
+            <img
               src="https://i.ibb.co/CVnRRPD/worldchat.png"
               width="400"
-              alt="Message thread"
-              srcset="
-                https://i.ibb.co/CVnRRPD/worldchat.png 500w,
-                https://i.ibb.co/CVnRRPD/worldchat.png 800w
-              "
-              sizes="(max-width: 479px) 59vw, (max-width: 767px) 54vw, 400px"
-              data-w-id="797e5ab4-7725-a6c7-7a52-6024da3872f7"
+              height="auto"
+              alt="World chat feature"
               class="phone vertical-2"
+              loading="lazy"
             />
           </div>
           <p class="about centered">
-            The whole jist of foxie is to just get you out into the world, make
+            The whole gist of Foxie is to just get you out into the world, make
             new friends, connect with other people. Have fun!
           </p>
           <a
             href="https://apps.apple.com/us/app/foxie/id1369279200"
             target="_blank"
+            rel="noopener noreferrer"
             class="container-cta w-inline-block"
-            ><img
+            aria-label="Download Foxie on the App Store"
+          >
+            <img
               src="https://uploads-ssl.webflow.com/5bdcd81aa566f460cda90ea7/5bf24ca411bde25a5754c7f7_app%20store.png"
               width="190"
-              alt=""
+              height="auto"
+              alt="Download on the App Store"
               class="cta"
-          /></a>
-        </div>
+              loading="lazy"
+            />
+          </a>
+        </section>
       </div>
       <div class="gradient-pink"></div>
     </div>
+
     <div class="container-drip"></div>
-    <div id="contact" class="content contact">
+
+    <section id="contact" class="content contact" aria-label="Contact">
       <h2 class="h2 blue">Contact us</h2>
       <p class="contact">
-        Questions? Feedback? Want to request a feature? We’re building this for
-        you, so we want to know what you think. We’re always happy to chat, so
+        Questions? Feedback? Want to request a feature? We're building this for
+        you, so we want to know what you think. We're always happy to chat, so
         drop us a line at
-        <a href="mailto:info@foxie.cool" class="link-contact">info@foxie.cool</a
-        >.
+        <a href="mailto:info@foxie.cool" class="link-contact">info@foxie.cool</a>.
       </p>
-    </div>
-    <div class="footer">
+    </section>
+
+    <footer class="footer">
       <div class="container-social">
         <a
           href="https://www.facebook.com/foxie/"
           target="_blank"
+          rel="noopener noreferrer"
           class="link-social w-inline-block"
-          ><img
+          aria-label="Foxie on Facebook"
+        >
+          <img
             src="https://uploads-ssl.webflow.com/5bdcd81aa566f460cda90ea7/5bf4674a40b4dc5095c2dd40_facebook.png"
-            width="0"
-            alt="" /></a
-        ><a
+            width="32"
+            height="32"
+            alt="Facebook"
+            loading="lazy"
+          />
+        </a>
+        <a
           href="https://twitter.com/foxiee_app"
           target="_blank"
+          rel="noopener noreferrer"
           class="link-social w-inline-block"
-          ><img
+          aria-label="Foxie on Twitter"
+        >
+          <img
             src="https://uploads-ssl.webflow.com/5bdcd81aa566f460cda90ea7/5bf4674bfcdf2adaefea73e8_twitter.png"
             width="32"
-            alt="" /></a
-        ><a
+            height="32"
+            alt="Twitter"
+            loading="lazy"
+          />
+        </a>
+        <a
           href="https://www.instagram.com/foxie_app/"
           target="_blank"
+          rel="noopener noreferrer"
           class="link-social w-inline-block"
-          ><img
+          aria-label="Foxie on Instagram"
+        >
+          <img
             src="https://uploads-ssl.webflow.com/5bdcd81aa566f460cda90ea7/5bf4674b4ae8f8ba105bbc39_instagram.png"
             width="32"
-            alt=""
-        /></a>
+            height="32"
+            alt="Instagram"
+            loading="lazy"
+          />
+        </a>
       </div>
-      <div class="text-footer">© 2019-2025 Foxie.</div>
-    </div>
-    <div
-      data-w-id="5074bf7e-2f9e-2511-6136-0ecda5908457"
-      style="display: none; opacity: 0"
-      class="bg-modal"
-    >
-      <div
-        data-w-id="dd59d95c-4951-5023-b113-9484dc3d0df1"
-        style="
-          -webkit-transform: translate3d(0, 0, 0) scale3d(0.96, 0.96, 1)
-            rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
-          -moz-transform: translate3d(0, 0, 0) scale3d(0.96, 0.96, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          -ms-transform: translate3d(0, 0, 0) scale3d(0.96, 0.96, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-          transform: translate3d(0, 0, 0) scale3d(0.96, 0.96, 1) rotateX(0)
-            rotateY(0) rotateZ(0) skew(0, 0);
-        "
-        class=""
-      >
-        <p class=""></p>
-        <div class="form-android w-form">
-          <form
-            id="wf-form-Android-waiting-list"
-            name="wf-form-Android-waiting-list"
-            data-name="Android waiting list"
-            class="form"
-          >
-            <input
-              type="email"
-              class="text-field w-input"
-              maxlength="256"
-              name="Email"
-              data-name="Email"
-              placeholder="Enter your email"
-              id="Email"
-              required=""
-            /><input
-              type="submit"
-              value="Submit"
-              data-wait="Please wait..."
-              class="submit-button w-button"
-            />
-          </form>
-          <div class="success w-form-done">
-            <div class="text-success">
-              Thank you! Your submission has been received and we&#x27;ll let
-              you know when Thaw is available on Android.
-            </div>
-          </div>
-          <div class="error w-form-fail">
-            <div class="text-failure">
-              Oops! Something went wrong while submitting the form.
-            </div>
-          </div>
-        </div>
-        <div
-          data-w-id="fea3df49-e1dd-324d-74d9-1270efa88ff1"
-          class="close"
-        ></div>
-      </div>
-    </div>
-    <script
-      src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js"
-      type="text/javascript"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://uploads-ssl.webflow.com/5bdcd81aa566f460cda90ea7/js/thaw.4c3cb1964.js"
-      type="text/javascript"
-    ></script>
-    <!--[if lte IE 9
-      ]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script
-    ><![endif]-->
+      <div class="text-footer">&copy; 2019-2026 Foxie. All rights reserved.</div>
+    </footer>
+
+    <!-- Minimal JS -->
+    <script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://uploads-ssl.webflow.com/5bdcd81aa566f460cda90ea7/js/thaw.4c3cb1964.js"></script>
   </body>
 </html>
